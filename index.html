@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+          L'atelier - Spécialiste de la téléphonie
+        </title>
+        <meta
+          name="description"
+          content="Un atelier de telephonie pour vos besoins au centre de Romans-sur-Isere !"
+        />
+        <link rel="icon" href="ressources/smartphone.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Open+Sans:wght@300;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body>
+        
+        <!-- Header -->
+
+        <header id="accueil">
+            <nav class="main-nav">
+                <button
+                    aria-controls="main-navlist"
+                    aria-expanded="false"
+                    class="nav-toggler"
+                >
+                    <img
+                    src="ressources/hamburger.svg" alt="Ouvrir et fermer le menu" />
+                </button>
+                <ul id="main-navlist">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#valeurs">Nos valeurs</a></li>
+                    <li><a href="#prestations">Prestations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1 class="main-title">Votre atelier d'exeption</h1>
+                <p class="main-subtitle">Vente, achat et réparation</p>
+
+                <a href="#prestations" class="hero-link hero-link1">
+                    <span>Prestations</span>
+                    <img src="ressources/pack/tools.png" alt="">
+                </a>
+                <a href="#contact" class="hero-link hero-link2">
+                    <span>Contact</span>
+                    <img src="ressources/pack/contact.png" alt="">
+                </a>
+
+                <a href="#valeurs" class="push-down-hero">
+                    <img
+                    height="24" width="24" 
+                    src="ressources/chevron-down.svg" alt="Aller à la section nos valeurs">
+                </a>
+            </div>
+        </header>
+
+        <!-- About section -->
+
+        <main>
+            <section class="about" id="valeurs">
+                <h2 class="section-title">
+                    <span>Un atelier pour vos besoins</span>
+                    <img src="ressources/pack/shop.png" alt="">
+                </h2>
+                <p class="section-subtitle">
+                    Patience et expertise à votre service
+                </p>
+
+                <div class="container about-content">
+                    <div class="about-text">
+                        <h3 class="heading-h3">
+                            <img src="ressources/pack/worker.png" alt="">
+                            <span>VOUS ÉTES ENTRE DE BONNES MAINS.</span>
+                        </h3>
+                        <p>Chers clients, en tant que réparateur de téléphone, notre priorité est votre satisfaction. Nous comprenons à quel point votre téléphone est important dans votre vie quotidienne. Soyez assurés que notre équipe dévouée met tout en œuvre pour fournir des services de réparation rapides, fiables et de haute qualité.
+                        </p>
+                        <h3 class="heading-h3">
+                            <img src="ressources/pack/earth.png" alt="">
+                            <span>NOUS PENSONS À LA PLANÈTE.</span>
+                        </h3>
+                        <p>Nous privilégiés le reconditionnement des appareils que nous vous rachetons afin de leur donner une nouvelle vie.
+                        </p>
+                    </div>
+                    <div class="about-slideshow" role="region"
+                    aria-roledescription="carousel" aria-label="photo de l'atelier">
+                        <div class="slideshow-images-container" role="group">
+                            <img src="ressources/devanture.jpeg" aria-roledescription="slide" 
+                            alt="devanture de l'atelier"
+                            class="active">
+                            <img src="ressources/entrée.jpeg" aria-roledescription="slide" 
+                            alt="entrée de l'atelier">
+                            <img src="ressources/machine.jpeg" aria-roledescription="slide" 
+                            alt="machine de fabrication de protection pour smartphone">
+                        </div>
+                        <div class="dots fade-slide-dots" role="group" aria-label="boutons de controle">
+                            <button class="dot active" data-fadeIndex="1"
+                            aria-label="Montrer l'image 1" aria-disabled="true"></button>
+                            <button class="dot" data-fadeIndex="2"
+                            aria-label="Montrer l'image 2" aria-disabled="false"></button>
+                            <button class="dot" data-fadeIndex="3"
+                            aria-label="Montrer l'image 3" aria-disabled="false"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section prestations -->
+
+            <section class="prestations" id="prestations">
+                <h2 class="section-title">
+                    <span>Nos Prestations</span>
+                    <img src="ressources/pack/presticon.png" alt="">
+                </h2>
+                <p class="section-subtitle">Selon vos besoins</p>
+
+                <div class="container prestations-container">
+                    <div class="prestations-card">
+                        <h3 class="prestations-category-title">
+                            <span>Vente & Rachat</span>
+                            <img src="ressources/pack/achat.png" alt="">
+                        </h3>
+                        <ul class="prestations-list">
+                            <li>
+                                <h4 class="heading-h4">VENTE</h4>
+                                <p>Nous vendons tout type de <strong>smartphone</strong>, d'<strong>accessoire</strong>, de <strong>coque</strong> et de <strong>protection d'écran</strong>.</p>
+                            </li>
+                            <li>
+                                <h4 class="heading-h4">RACHAT</h4>
+                                <p>Nous rachetons tout type de <strong>smartphone</strong>, de <strong>tablette</strong> et de <strong>Pc</strong>.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="prestations-card">
+                        <h3 class="prestations-category-title">
+                            <span>Réparation</span>
+                            <img src="ressources/pack/reparation.png" alt="">
+                        </h3>
+                        <ul class="prestations-list">
+                            <li>
+                                <h4 class="heading-h4">CLASSIQUE</h4>
+                                <p>Nous réparons vos <strong>smartphones</strong>, <strong>tablettes</strong> et <strong>Pc</strong> (seulement macbook).</p>
+                                <p><em>Durée 24h</em></p>
+                            </li>
+                            <li>
+                                <h4 class="heading-h4">EXPRESS</h4>
+                                <p>Nous réparons vos <strong>smartphones</strong>, <strong>tablettes</strong> et <strong>Pc</strong> (seulement macbook).</p>
+                                <p><em>Immédiatement</em></p>
+                            </li>
+                        </ul>
+                        <p class="devis">Devis gratuit !</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+
+            <section id="contact" class="contact">
+                <h2 class="section-title">
+                    <span>Notre adresse</span>
+                    <img src="ressources/pack/adresse.png" alt="">
+                </h2>
+                <p class="section-subtitle">Nous sommes présents pour vos besoins</p>
+
+                <div class="container contact-content">
+                    <div class="addresses">
+                        <div class="address-block">
+                            <p>6 Pl. Charles de Gaulle, 26100 Romans-sur-Isère</p>
+                            <p>07 57 77 77 01</p>
+                            <p>latelier.telephonie@gmail.com</p>
+                            <a href="https://www.instagram.com/latelier26100/">
+                                <img src="ressources/instagram.svg" alt="visiter la page intagram de l'atelier">
+                            </a>
+                            <a href="https://www.facebook.com/people/Latelier-T%C3%A9l%C3%A9phonie/pfbid0xLdeorRyFPfLr6vLpijA3cmJPiGMqrQxZCgUiaHA7BTRojMGBbBkVFzvSViLr2PHl/">
+                                <img src="ressources/facebook.svg" alt="visiter la page facebook de l'atelier">
+                            </a>
+                            <a href="https://www.tiktok.com/@latelier.2.6">
+                                <img src="ressources/tiktok.svg" alt="visiter la page tiktok de l'atelier">
+                            </a>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11276.022339779722!2d5.031816065311442!3d45.04510853016863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f54dacb67fe93f%3A0xc37929b67f33d6b9!2sL&#39;atelier%2C%20R%C3%A9paration%20et%20ventes%20accessoires!5e0!3m2!1sen!2sfr!4v1703159549089!5m2!1sen!2sfr" title="carte localisation" style="border:0; width: 100%; height: 200px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="schedule">
+                        <div class="schedule-table">
+                            <h3 class="heading-h3">Horaires d'ouverture</h3>
+                            <p><span>Lundi</span> <span>14h00-18h30</span></p>
+                            <p><span>Mardi</span> <span>10h00-12h30 <br> 14h00-18h30</span></p>
+                            <p><span>Mercredi</span> <span>10h00-12h30 <br> 14h00-18h30</span></p>
+                            <p><span>Jeudi</span> <span>10h00-12h30 <br> 14h00-18h30</span></p>
+                            <p><span>Vendredi</span> <span>10h00-12h30 <br> 14h00-18h30</span></p>
+                            <p><span>Samedi</span> <span>10h00-12h30 <br> 14h00-18h30</span></p>
+                            <p><span>Dimanche</span> <span>Fermé</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+        </main>
+
+        <footer>
+            <a href="#">
+                Mentions légales
+            </a>
+        </footer>
+
+        <script src="script.js"></script>
+      </body>
+</html>
